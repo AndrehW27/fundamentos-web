@@ -1,173 +1,65 @@
-/* HEADER */
-
-header{
-    position: fixed;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 70px;
-    background-color: #2C3539;
-    color: #fff;  
-    padding-left: 12px;  
-}
-
-.logo{
-    width: 80px;
-    height: 30px;
-    background-image: url("/assets/images/Teamfight_Tactics_logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 12px;
-
-}
-.home{
-    padding: 12px;
-    color: #fff;
-}
-
-.home:hover{
-    color: #ddb546;
-}
-
-.download{
-    color: #fff;
-    padding: 12px;
-}
-
-.download:hover{
-    color: #ddb546;
-}
 
 
 /* CONTEUDO */
 
-#container{
-
+#container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
     height: 100vh;
-    background-image: url("/assets/images/fundo1.jpg");
+    background-image: url("../assets/images/fundo1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%; 
-    box-shadow: inset 0px 0px 100px 100px rgba(0,0,0,0.9);  
+    width: 100%;
+    box-shadow: inset 0px 0px 150px 100px rgba(0, 0, 0, 0.9);
 }
 
-.texto-botao{
+.texto-botao {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
     height: 250px;
-
 }
 
-.texto{
-    background-color: rgba(0,0,0,0.9);  
+.texto {
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 30px;
     color: #FFF;
     width: 400px;
-    
+    border-radius: 10px;
+   
 }
 
-.botao-box{
-    display: flex;   
+.botao-box {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
     width: 200px;
-
     border-radius: 5px;
     font-weight: bold;
     color: #FFF;
-   
-
 }
 
-.botao{
-    display: flex;   
+.botao {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
     width: 200px;
     background-color: rgb(46, 187, 223);
-    box-shadow:  0px 0px 30px 20px rgba(0,0,0,0.9);  
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.9);
     border-radius: 5px;
     font-weight: bold;
-   
     color: #FFF;
     transform: scale(0.9);
-    transition:  ease 200ms;
-    
+    transition: ease 200ms;
 }
 
 .botao:hover {
     transform: scale(1);
-   
-}
-
-/* FOOTER */
-
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;   
-    background-color: #2C3539;
-    color: #ddb546;  
-    padding-bottom: 24px;
-}
-
-.arrow-up{
-    background-image: url("/assets/icons/up-arrow_white.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30px;
-    width: 60px;
-    margin-top: 24px;
-}
-
-.riot{
-    padding: 12px;
-    margin-top: 12px;
-}
-
-.social-medias{
-    display: flex;  
-    margin: 12px 0px 
-}
-
-.andre{
-    padding: 12px; 
-}
-
-.social-box{
-    width: 30px;
-    height: 30px;
-    margin: 0px 12px;   
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-#face-riot{
-    background-image: url("/assets/icons/facebook_white.png");
-}
-#insta-riot{
-    background-image: url("/assets/icons/instagram_white.png");
-}
-#twitter-riot{
-    background-image: url("/assets/icons/twitter_white.png");
-}
-#github-andre{
-    background-image: url("/assets/icons/github_white.png");
 }
 

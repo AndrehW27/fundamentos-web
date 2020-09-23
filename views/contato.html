@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="p[t-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TFT Lite</title>
 
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/contato.css">
+    
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/contato.css"> 
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="/assets/images/pingu.png">
+    <link rel="icon" href="../assets/images/pingu.png">
 
 </head>
-
 <body>
+
     <header>
         <a href="https://teamfighttactics.leagueoflegends.com/pt-br/" target="_blank" rel="noopener noreferrer">
             <div class="logo"></div>
         </a>
-        <a href="./index.html">
+        <a href="../index.html">
             <div class="home">Home</div>
         </a>
         <a href="https://signup.br.leagueoflegends.com/pt/teamfight-tactics/signup/index#/" target="_blank"
@@ -29,45 +28,36 @@
         </a>
     </header>
 
-    <div id="container">
+    <div id="section-form">
 
-        <div class="texto-botao">
-            <div class="texto">
-                TFT é um jogo de estratégia em turnos que coloca você contra sete oponentes em uma batalha todos contra
-                todos para montar um poderoso exército que lutará em seu nome. Seu objetivo: ser a última pessoa
-                restante.
-            </div>
+        <div class="form-box">
+            
+                <label class="label-nome" for="nome">Nome</label>
+                <input type="text" placeholder="Insira seu nome">
+           
+           
+                <label class="label-email"  for="email">Email</label>
+                <input type="email" placeholder="Insira seu email">
+          
+                <label class="label-msg"  for="mensagem">Mensagem</label>
+                <textarea name="text-area" id="text-area" cols="60" rows="10" placeholder="Insira sua mensagem..."></textarea>
 
-            <a href="https://signup.br.leagueoflegends.com/pt/teamfight-tactics/signup/index#/" target="_blank"
-                rel="noopener noreferrer">
-                <div class="botao-box">
-                    <div class="botao">Jogue de graça</div>
-                </div>
-
-            </a>
-
+                <input type="submit" placeholder="Enviar">
+                
+            
+            
         </div>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_XbhPF2jTC0" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
-        </div>
-
-
 
     </div>
 
-
     <footer>
-        <a href="#container">
+        <a href="#section-form">
             <div class="arrow-up"></div>
         </a>
 
         <div class="riot">
-            Direitos de imagem reservados a Riot Games &copy
+            Direitos de imagem reservados a &copyRiot Games
         </div>
-
         <div class="social-medias">
             <a href="https://www.facebook.com/groups/tftbrasil/" target="_blank" rel="noopener noreferrer">
                 <div id="face-riot" class="social-box"></div>
@@ -75,34 +65,22 @@
             <a href="https://www.instagram.com/tftbrasil/?hl=pt-br" target="_blank" rel="noopener noreferrer">
                 <div id="insta-riot" class="social-box"></div>
             </a>
+
             <a href="https://twitter.com/tftbrasil" target="_blank" rel="noopener noreferrer">
                 <div id="twitter-riot" class="social-box"></div>
             </a>
         </div>
-
         <div class="andre">
             Site feito por André Willian
         </div>
-
         <div class="social-medias">
-            <!-- <a href="https://github.com/AndrehW27" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AndrehW27" target="_blank" rel="noopener noreferrer">
                 <div id="github-andre" class="social-box"></div>
-            </a> -->
-            <a href="./views/contato.html">
-                <div class="contato" >Contato</div>
             </a>
+
         </div>
     </footer>
 
-
-    <!-- <div class="teste">
-        <a href="./views/contato.html">
-            <div class="teste-box"></div>
-        </a>
-
-    </div> -->
-
-
+    
 </body>
-
 </html>

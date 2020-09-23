@@ -6,3 +6,134 @@
      box-sizing: border-box;
      font-family: 'Roboto', sans-serif;
  }
+
+ /* HEADER */
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70px;
+    background-color: #2C3539;
+    color: #fff;
+    padding-left: 12px;
+    z-index: 999;
+}
+
+.logo {
+    width: 80px;
+    height: 30px;
+    background-image: url("../assets/images/Teamfight_Tactics_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 12px;
+}
+
+.home {
+    padding: 12px;
+    color: #fff;
+}
+
+.home:hover {
+    color: #ddb546;
+}
+
+.download {
+    color: #fff;
+    padding: 12px;
+}
+
+.download:hover {
+    color: #ddb546;
+}
+
+/* FOOTER  */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C3539;
+    color: #ddb546;
+    padding-bottom: 24px;
+}
+
+.arrow-up {
+    background-image: url("../assets/icons/up-arrow_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30px;
+    width: 60px;
+    margin-top: 24px;
+}
+
+.riot {
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.social-medias {
+    display: flex;
+    margin: 12px 0px
+}
+
+.andre {
+    padding: 12px;
+}
+
+.social-box {
+    width: 30px;
+    height: 30px;
+    margin: 0px 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#face-riot {
+    background-image: url("../assets/icons/facebook_white.png");
+}
+
+#insta-riot {
+    background-image: url("../assets/icons/instagram_white.png");
+}
+
+#twitter-riot {
+    background-image: url("../assets/icons/twitter_white.png");
+}
+
+#github-andre {
+    background-image: url("../assets/icons/github_white.png");
+}
+
+.teste {
+    height: 70px;
+}
+
+.teste-box {
+    width: 50px;
+    height: 50px;
+    background-image: url("../assets/images/pingu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0;
+    animation-name: vaievem;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes vaievem {
+    0%   {left:0px; bottom:0px;}
+    100% { right:0px; bottom:0px;}
+  }
+
+  .contato{
+      color: #FFF;
+    }
