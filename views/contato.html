@@ -33,19 +33,21 @@
         <div class="form-box">
             
                 <label class="label-nome" for="nome">Nome</label>
-                <input type="text" placeholder="Insira seu nome">
-           
+                <input type="text" id="nome" onKeyup='validaNome()' placeholder="Insira seu nome">
+                <div id="txtNome"></div>           
            
                 <label class="label-email"  for="email">Email</label>
-                <input type="email" placeholder="Insira seu email">
+                <input type="email" id="email" onKeyup='validaEmail()' placeholder="Insira seu email">
+                <div id="txtEmail"></div>
           
                 <label class="label-msg"  for="mensagem">Mensagem</label>
-                <textarea name="text-area" id="text-area" cols="60" rows="10" placeholder="Insira sua mensagem..."></textarea>
+                <textarea name="mensagem" id="mensagem" cols="60" rows="7" onKeyup='validaMensagem()' placeholder="Insira sua mensagem..."></textarea>
+                <div id="txtMensagem"></div>
 
-                <input type="submit" placeholder="Enviar">
-                
-            
-            
+                <button type="submit" id="enviar" onclick='enviar()'>Enviar</button>
+
+                <!-- <input type="submit" id="enviar" onclick='enviar()' placeholder="Enviar">    -->
+                       
         </div>
 
     </div>
@@ -81,6 +83,7 @@
         </div>
     </footer>
 
-    
+    <script src="../scripts/contato.js"></script>
+
 </body>
 </html>
